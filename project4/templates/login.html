@@ -1,19 +1,23 @@
-{% extends "base.html" %}
-{% block head %}
-{{ super() }}
-<script>var a=99;</script>
-{% endblock head %}
-{% block title %}Login{% endblock title%}
-{% block content%}
-<form method='post' action={{ url_for('login') }}>
-        <p>
-        <input type='text' name='username'>
-    </p>
-        <p>
-        <input type="text" name="password">
-    </p>
-        <p>
-        <button type='submit'>Submit</button>
-    </p>
-</form>
-{% endblock content%}
+<!doctype html>
+<html>
+   <body>
+      <h1>Login</h1>
+
+      {% if error %}
+         <p><strong>Error:</strong> {{ error }}
+      {% endif %}
+      
+      <form action = "" method = post>
+         <dl>
+            <dt>Username:</dt>
+            <dd>
+               <input type = text name = username 
+                  value = "{{request.form.username }}">
+            </dd>
+            <dt>Password:</dt>
+            <dd><input type = password name = password></dd>
+         </dl>
+         <p><input type = submit value = Login></p>
+      </form>
+   </body>
+</html>

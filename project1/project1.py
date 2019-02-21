@@ -56,7 +56,7 @@ for row1 in data1:
     data2 = row1.find_all("td")
     c1 = row1.find_next("td")
     
-    for row2 in data2:
+    for  row2 in data2:
         #c = row2.find_next("td")
         if str(row2) == "<td></td>": continue
         if str(row2.string) == "Anime1.me": continue
@@ -94,7 +94,7 @@ rec = str(file.read())
 file.close()
 
 sender = 'csillag.bt06@gmail.com'
-passwd = 'snowflake777'
+passwd = 'snow777flake'
 receivers = [rec]
  
 emails = [elem.strip().split(',') for elem in receivers]
