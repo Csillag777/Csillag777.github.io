@@ -15,3 +15,4 @@ function update(){
     this.previousElementSibling.innerHTML = this.value;
     this.parentNode.className = "";
 }
+document.getElementById("11").onclick = function() {alert("goodjob")};

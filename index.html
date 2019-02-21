@@ -2,10 +2,12 @@
 
 <head>
     <title>test123</title>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
+<body onselectstart="return false;" ondragstart="return false;" oncontextmenu="return false;">
+<body oncopy=alert('Sorry，禁止複製！'); event.returnValue=false; >
 <body oncontextmenu="window.event.returnValue=false">
 <body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
 <body oncontextmenu="return false;">
@@ -44,8 +46,12 @@
 
 
     </div>
+    <div class="alert alert-danger" role="alert">
+        A simple primary alert—check it out!
+      </div>
     <h1>一切的一切，從此時說起</h1>
-    <h2>僅以此網站來紀錄一些有的沒的，學習有的沒的東西，髓然不曉得有啥意義XD，但確實是個機會來嘗試更多的事物，正如人們所說的「改變需要勇氣，但結果值得冒險」希望往後也能秉持自信向未來前進</h2>
+    <h2>僅以此網頁來紀錄一些有的沒的，學習有的沒的東西，髓然不曉得有啥意義XD，但確實是個機會來嘗試更多的事物，正如人們所說的「改變需要勇氣，但結果值得冒險」希望往後也能秉持自信向未來前進</h2>
+    <button type="button"  id = 11 class="btn btn-info">Info</button>
     <script src="main.js"></script>
 </body>
 
