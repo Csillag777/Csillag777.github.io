@@ -1,0 +1,11 @@
+{
+        "manifest_version": 2,
+        "description": "talking to the moon",
+        "name": "see the moon",
+        "version": "2.3",
+        "background":{
+                "scripts":["event.js"],
+                "persistent": false
+                },
+        "permissions":["storage"]
+        }
