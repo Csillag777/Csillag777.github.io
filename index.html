@@ -1,90 +1,88 @@
 <html>
 
 <head>
-    <title>tryyy</title>
-    <meta charset="utf-8">
+  <title>tryyy</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
-<body>
-<body onselectstart="return false;" ondragstart="return false;" oncontextmenu="return false;">
-<body oncopy=alert('Sorry，禁止複製！'); event.returnValue=false; >
-<body oncontextmenu="window.event.returnValue=false">
-<body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
 <body oncontextmenu="return false;">
-    <link href="main.css" rel="stylesheet">
-    <header>
-        <h1>Blog(???</h1>
-        <h2>hello world!!</h2>
-    </header>
+  <link href="main.css" rel="stylesheet">
+  <div class="he">
+    <span class="link" onclick="homeredirect()">
+      <h3>Csillag's Diary</h3>
+    </span>
+    <!--hello world comment~~-->
+  </div>
+  <div class="banner">
+    <img src="image/banner.png" height="106">
 
-    <style>
-        li input {
-            display: none;
-        }
+  </div>
 
-        li.edit span {
-            display: none;
-        }
-
-        li.edit input {
-            display: initial;
-        }
-    </style>
-    <div class="checklist">
-        <li>
-            <span>apple</span>
-            <input value="apple" />
-        </li>
-        <li>
-            <span>orange</span>
-            <input value="orange" />
-        </li>
-        <li>
-            <span>banana</span>
-            <input value="banana" />
-        </li>
+  <hr width=100% size=3 color=D2D1D0 style="FILTER: alpha(opacity=100,finishopacity=0,style=1)">
+  <div class="parts">
 
 
+    <span class="link" style="color: tomato;"><a href="#introo">Introduction</a></span>
+    <br>
+    <span class="link"><a href="#eduu">Education</a></span>
+    <br>
+    <span class="link"><a href="#introo">Research</a></span>
+    <br>
+    <span class="link"><a href="#introo">Projects</a></span>
+    <br>
+    <span class="link"><a href="#conn">Contact</a></span>
+    <br>
+    <span class="link"><a href="#introo">Support</a></span>
+
+    <div class="lan">
+      <table>
+        <tr>
+          <td><a href="" onclick="apologize()" title="中文" style="font-family: Microsoft JhengHei">中文</a></td>
+          <td><a href="" title="English">English</a></td>
+        </tr>
+
+        <tr>
+          <td><a href="" onclick="apologize()" title="日本語" style="font-family: Microsoft JhengHei">日本語</a></td>
+          <td><a href="" onclick="apologize()" title="Deutsch">Deutsch</a></td>
+        </tr>
+      </table>
     </div>
-    <div class="alert alert-danger" role="alert">
-        不能反白喔喔喔!!!
-      </div>
+    <div class="right">Copyright © 2020 Csillag.All rights reserved.</div>
+  </div>
+  <div class="con_board">
+    <div class="content">
 
-    <h1><span onclick="w()">flask 好麻煩 = =</span></h1>
-    <h2>僅以此網頁來紀錄一些有的沒的，雖然不曉得有啥意義XD</h2>
-
-    <button type="button"  id = 11 class="btn btn-info">Info</button>
-
-    <div class="container">
-        <h2>Carousel Example</h2>  
+      <div class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
           </ol>
-      
-          <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="first.png" alt="Los Angeles" style="width:100%;">
+              <img src="photo/a.jpg" alt="1" style="height: 500px;">
             </div>
-      
             <div class="item">
-              <img src="second.png" alt="Chicago" style="width:100%;">
+              <img src="photo/b.jpg" alt="2" style="height: 500px;">
             </div>
-          
             <div class="item">
-              <img src="third.png" alt="New york" style="width:100%;">
+              <img src="photo/c.jpg" alt="3" style="height: 500px;">
+            </div>
+            <div class="item">
+              <img src="photo/d.jpg" alt="4" style="height: 500px;">
+            </div>
+            <div class="item">
+              <img src="photo/e.jpg" alt="5" style="height: 500px;">
             </div>
           </div>
-      
-          <!-- Left and right controls -->
           <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
             <span class="sr-only">Previous</span>
@@ -95,7 +93,124 @@
           </a>
         </div>
       </div>
-      
+      <br>
+      <div class="intro" id="introo">
+        <div class="content1">
+          <div class="content_left">
+            <p><img class="pimg" height=290 src="photo/photo4.jpg"></p>
+          </div>
+          <div class="content_right">
+            <p>Hello, I am Csillag. Nice to meet you! Now I am study in university in Taiwan. If you are wondering where
+              Taiwan is. You can also check out the contact to get more infomation.</p><br>
+            <p>I am interested in lots of things! For example I learn biological science in university. I can culture
+              cells, tumor cells, organoids and I participated DNA barcoding before. Doing the biological experiment is
+              really fun isn't it? </p><br>
+          </div>
+        </div>
+        <div class="content2">
+          <div class="content_left">
+            <p>Besides, electric stiffs and computer technology also interest me too. I spend a plenty of time to
+              doing some cool projects such as robots and programs. In this website, I will introduce some projects
+              that I had done before. Welcome to share your ideas with me some day.</p><br>
+            <p>Although I am not good at programming or these kinds of work. But those make me curious and I will try
+              my best to learn more and more. Now, It's about time to end the article. Have fun!</p><br>
+          </div>
+          <div class="content_right">
+            <p><img class="pimg" width=465 src="photo/c.jpg"></p>
+          </div>
+
+        </div>
+      </div>
+      <div class="edu" id="eduu">
+        <div class="content" style="height: fit-content;">
+          <p>
+            <br><br>
+
+            <a class="btn btn-primary btn-lg active" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+              aria-expanded="false" aria-controls="multiCollapseExample1">Senior High School</a>
+            <button class="btn btn-success btn-lg active" type="button" data-toggle="collapse"
+              data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">B.S.
+              Degree</button>
+
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body" id="card" style="background-color: transparent;">
+                  <span class="font2" style="font-family: 'Times New Roman', Times, serif;"><b> Taipei Municipal
+                      Chenggong High School</b></span><br>
+                  Taipei Municipal Chenggong High School was formerly the Taipei (Pronounced Tai-bay) Prefectural
+                  Second Middle School, established in 1922 and briefly called Taipei Second Middle School.
+                  It moved from the Bodhidharma temple to the present site in 1925, and was intended for the
+                  enrollment of Taiwanese students.
+                  In 1946, the following year of our victory over Japan in the Sino-Japanese war and restoration of
+                  Taiwan to the Republic of China, the school was renamed the Taiwan Provincial Taipei ChengGong High
+                  School in memory of Tseng Cheng-gong` s exploitation of Taiwan and resistance to foreign invaders.
+                  By order of the government, the school began to have evening session in 1953, which stopped
+                  enrolling new students in 1981. The evening session terminated two years later along with the
+                  graduation of the students.<br>
+                  <img height="300" src="image/cgsh.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                  <span class="font1" style="font-family: 'Times New Roman', Times, serif;"><b> National Chiao Tung
+                      University (NCTU) </b></span>
+                  <br>
+                  National Chiao Tung University (NCTU) was established in Taiwan in 1958. After undergoing 60 years
+                  of development and refinement, it boasts outstanding performance in the fields of information and
+                  communications, basic research, biotechnology, humanities and social sciences, management and law.
+                  At present, the total number of students stands at more than 14,000. There are 12 colleges,
+                  including the College of Electrical and Computer Engineering, College of Computer Science, College
+                  of Science, College of Engineering, College of Biological Science and Technology, College of
+                  Photonics, International College of Semiconductor Technology, College of Management, College of
+                  Humanities and Social Sciences, College of Hakka Studies, School of Law and College of Artificial
+                  Intelligence.<br>
+                  <img height="300" src="image/nctu.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="con" id="conn">
+        <div class="content" style="height: fit-content;">
+          <div class="content1" style="background-color: transparent;">
+            <div class="content_left">
+              <img src="photo/photo4.jpg" height="290" alt="">
+            </div>
+            <div class="content_right">
+              <p>
+              <h3>
+                <span class="nn">Csillag</span></h3>
+              <br>
+              Hobbies: Fooling around<br>Email address:
+              <a href="mailto:TAT@example.com?subject = Feedback&body = Message">
+                Send Feedback
+              </a></p>
+
+            </div>
+          </div>
+          <div class="content2" style="width: 943px;">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747580.2896913816!2d117.83491054395309!3d23.469611288926984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ef3065c07572f%3A0xe711f004bf9c5469!2z5Y-w54Gj!5e0!3m2!1szh-TW!2stw!4v1602166823790!5m2!1szh-TW!2stw"
+              width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="media">
+      <a href="https://github.com/Csillag777" target="_blank"><img id=github src="image/git.png"></a>
+      <a href="https://www.facebook.com/sailor.chien.5" target="_blank"><img id=fb src="image/fb.png"></a>
+      <a href="https://www.instagram.com/csillag77777/?hl=zh-tw" target="_blank"><img id=ig src="image/ig.png"></a>
+    </div>
+
     <script src="main.js"></script>
 </body>
 
