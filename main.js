@@ -19,3 +19,6 @@ document.getElementById("11").onclick = function() {alert("goodjob")};
 function flask_open(){
     window.location.href = "f.html";
 }
+function w(){
+    window.location.href = "f.html";
+}
