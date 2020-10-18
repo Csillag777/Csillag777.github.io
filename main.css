@@ -131,11 +131,10 @@ div.content3 {
     height: 400px;
     width: 100%;
     color: rgb(46, 46, 151);
+
 }
 #res1 {
     width: 30%;
-    border: tomato;
-    border-width: 3px;
 }
 .imgres {
     border-radius: 50%;
@@ -214,10 +213,11 @@ div.content {
     margin-right: 10px;
     background-color: transparent;
 }
-#multiCollapseExample1 {
+#multiCollapseExample1,#multiCollapseExample2,#multiCollapseExample3{
     padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
-
 #a1{
     cursor: pointer;
     color: black;
