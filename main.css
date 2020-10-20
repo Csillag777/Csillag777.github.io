@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Times New Roman', Times, serif;
     margin : 10px;
@@ -225,5 +226,4 @@ div.content {
 .tool {
     position: fixed;
     left: 10px;
-    bottom: 10px;
-}
+bottom: 10px;}

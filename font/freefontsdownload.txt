@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 This font was downloaded from
 
 Free Fonts Download
 
 http://www.freefontsdownload.net
 
+=======
+This font was downloaded from
+
+Free Fonts Download
+
+http://www.freefontsdownload.net
+
+>>>>>>> 13b1dda (test)
 Thank you for download!!!
