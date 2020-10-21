@@ -230,3 +230,7 @@ div.content {
     left: 10px;
     bottom: 10px;
 }
+.ref {
+    font-size: 18px;
+    color: rgba(141, 141, 141, 0.658);
+}
