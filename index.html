@@ -2,6 +2,7 @@
 
 <head>
   <title>Csillag's Diary</title>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -26,6 +27,7 @@
   </div>
 
   <hr width=100% size=3 color=D2D1D0 style="FILTER: alpha(opacity=100,finishopacity=0,style=1)">
+
   <div class="parts">
 
 
@@ -144,7 +146,8 @@
               aria-controls="multiCollapseExample3">Internship</button>
 
             <button class="btn btn-success btn-lg active" type="button" data-toggle="collapse"
-              data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">senior student in College</button>
+              data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">senior
+              student in College</button>
 
           </p>
           <div class="row">
@@ -171,7 +174,7 @@
             <div class="col">
               <div class="collapse multi-collapse" id="multiCollapseExample3">
                 <div class="card card-body">
-                  <span class="font1" style="font-family: 'Times New Roman', Times, serif;color: orange;"><b> Karsetsart
+                  <span class="font1" style="font-family: 'Times New Roman', Times, serif;color: orange;"><b> Kasetsart
                       University</b></span>
                   <br>
                   Kasetsart University (KU) (Thai: มหาวิทยาลัยเกษตรศาสตร์) is a public research university in Bangkok,
@@ -211,8 +214,7 @@
       <div class="res" id="ress">
         <div class="content3">
           <div class="content_left" id="res1">
-            <p><img class="imgres" height="300px"
-                src="image/C4-4DG-1.jpg"></p>
+            <p><img class="imgres" height="300px" src="image/C4-4DG-1.jpg"></p>
           </div>
           <div class="content_right">
             <p><span style="font-family: myFirstFont;font-size: 40px;">Organoids</span></p>
@@ -271,7 +273,8 @@
             <div class="content_left">
               <p><span style="font-family: myFirstFont;font-size: 40px;">Pie Face Game</span></p>
               <p>
-                This project is my final project in applied electricity class. In this Pie Face game, two players rotate their joystick. Someone who rotates his joystick slower may ... have the pie!
+                This project is my final project in applied electricity class. In this Pie Face game, two players rotate
+                their joystick. Someone who rotates his joystick slower may ... have the pie!
               </p>
             </div>
             <div class="content_right">
@@ -368,6 +371,18 @@
     <a href="https://github.com/Csillag777" target="_blank"><img src="image/git.png" width="40px"></a>
   </div>
   <script src="main.js"></script>
+
 </body>
+<script>
+  // When the user scrolls the page, execute myFunction 
+  window.onscroll = function () { myFunction() };
+
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var width = document.documentElement.scrollWidth - document.documentElement.clientWidth;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.height = scrolled + "%";
+  }
+</script>
 
 </html>
