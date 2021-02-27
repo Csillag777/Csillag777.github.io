@@ -234,3 +234,7 @@ div.content {
     font-size: 18px;
     color: rgba(141, 141, 141, 0.658);
 }
+.progress-conainer {
+    position: fixed;
+    top: 0px;
+}
