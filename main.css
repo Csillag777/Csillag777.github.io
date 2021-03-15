@@ -53,8 +53,8 @@ footer{
     font-family: myFirstFont;
     float: left;
     border-right: 3px solid #D2D1D0;
+    
 }
-
 div lan{
     position: center;
     margin-left: 50px;
@@ -237,4 +237,17 @@ div.content {
 .progress-conainer {
     position: fixed;
     top: 0px;
+}
+#emg{
+    height: 380px;
+}
+#iot{
+    height: 300px;
+}
+#g1{
+    padding-top: 50px;
+    margin-bottom: 150px;
+}
+#web1{
+    height: 250px;
 }
