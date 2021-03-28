@@ -1,0 +1,264 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin : 10px;
+    background-color: transparent;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+h1 {
+    color: rgba(0, 0, 0, 0.938);
+}
+h3 {
+    background : transparent;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-size: 70px;
+    font-family: myFirstFont1;
+    width: fit-content;
+    background: linear-gradient(to right, red, orange, rgba(231, 231, 35, 0.89), rgb(31, 153, 31));
+    /*background-image: url("https://i.pinimg.com/564x/53/08/53/5308532599c65c43eca5a9329be798fe--mickey-wallpaper-polka-dot-wallpaper.jpg");*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/JasonHandwriting-master/JasonHandwriting1.ttf);
+  }
+@font-face {
+    font-family: myFirstFont1;
+    src: url(font/BRUSHSCI.ttf);
+  }
+.col {
+    padding-left: 10px;
+    float: left ;
+    margin: 15px;
+    background: rgb(255, 255, 255);
+    
+}
+.hint {
+    font-family: myFirstFont;
+    font-size: 15px;
+}
+footer{
+    clear: both;
+}
+
+.parts {
+    background-color: transparent;
+    width: fit-content;
+    position: fixed;
+    font-size: 50px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 100px;
+    font-family: myFirstFont;
+    float: left;
+    border-right: 3px solid #D2D1D0;
+    
+}
+div lan{
+    position: center;
+    margin-left: 50px;
+}
+table td{
+    border: 1px solid rgb(116, 115, 115);
+    padding: 2px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    size: 3rem;
+}
+.p{
+    font-family: myFirstFont;
+}
+div.media{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    border: rgb(255, 204, 186);
+    border-style: dotted dashed dotted dashed;
+    border-width: 4px;
+    padding: 3px;
+}
+#github{
+    background-color: transparent;
+    width: 40px;
+}
+#fb{
+    background-color: transparent;
+    width: 40px;
+}
+#ig{
+    background-color: transparent;
+    width: 40px;
+}
+html {
+    background-image: url("image/back.jpg");
+  }
+div.he{
+    width: fit-content;
+}
+div.banner{
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+div.content1 {
+    background-color: rgb(248, 248, 248);
+    margin-right: 10px;
+    position: relative;
+    height: 320px;
+    width: 100%;
+}
+div.content2 {
+    background-color: rgb(248, 248, 248);
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 400px;
+    width: 100%;
+}
+div.content3 {
+    background-color: transparent;
+    margin-right: 10px;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+
+}
+#res1 {
+    width: 30%;
+}
+.imgres {
+    border-radius: 50%;
+}
+div.con_board {
+    position: relative;
+    width: fit-content;
+    margin-left: 400px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+#myCarousel {
+    position: relative;
+    left: 50px;
+    
+    width: fit-content;
+}
+.carousel-indicators {
+    border-radius: 100%;
+}
+div.right {
+    font-size: 11px;
+    color: gray;
+    padding-top:10px;
+}
+.link {
+    text-decoration: none;
+}
+div.content_left {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: fit-content;
+    text-decoration: none;
+    color:black;
+}
+
+div.content_right {
+    right: 0px;
+    float: right;
+    width: 50%;
+    padding: 5px;
+    height: fit-content;
+    color: blue;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+div.scroll {
+  background-color: #fed9ff;
+  width: 600px;
+  height: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+}
+.col{
+    font-size: 27px;
+}
+.font1 {
+    color: green;
+    font-style: italic;
+    font-size: 30px;
+} 
+.font2 {
+    color: blue;
+    font-style: italic;
+    font-size: 30px;
+}
+.nn {
+    font-family: myFirstFont;
+    font-size: 150px;
+}
+div.content {
+    width: 80%;
+    height: 400px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+#multiCollapseExample1,#multiCollapseExample2,#multiCollapseExample3{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+#a1{
+    cursor: pointer;
+    color: black;
+}
+.tool {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+.ref {
+    font-size: 18px;
+    color: rgba(141, 141, 141, 0.658);
+}
+.progress-conainer {
+    position: fixed;
+    top: 0px;
+}
+#emg{
+    height: 380px;
+}
+#iot{
+    height: 300px;
+}
+#g1{
+    padding-top: 50px;
+    margin-bottom: 150px;
+}
+#web1{
+    height: 250px;
+}
+#fix1{
+    text-decoration: none;
+    color: black;
+}

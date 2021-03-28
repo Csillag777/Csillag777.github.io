@@ -183,6 +183,7 @@ div.content_right {
 }
 p {
     font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 div.scroll {
   background-color: #fed9ff;
