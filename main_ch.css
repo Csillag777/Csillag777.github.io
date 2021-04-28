@@ -76,7 +76,8 @@ a {
     color: rgb(0, 0, 0);
     size: 3rem;
 }
-.p{
+
+#c1, #c2, #c3{
     font-family: myFirstFont;
 }
 div.media{
@@ -250,6 +251,7 @@ div.content {
 }
 #iot{
     height: 300px;
+    padding-bottom: 400px;
 }
 #g1{
     padding-top: 50px;
@@ -261,4 +263,10 @@ div.content {
 #fix1{
     text-decoration: none;
     color: black;
+}
+.p{
+    font-family: myFirstFont;
+}
+.conn{
+    background-color: white;
 }
