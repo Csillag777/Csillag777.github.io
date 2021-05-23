@@ -36,7 +36,7 @@ h3 {
 }
 .hint {
     font-family: myFirstFont;
-    font-size: 1rem;
+    font-size: 15px;
 }
 footer{
     clear: both;
@@ -252,24 +252,3 @@ div.content {
 #web1{
     height: 250px;
 }
-@media (max-width: 768px) {
-    .banner {
-      display: none;
-    }
-  }
-@media (max-width: 768px) {
-    #hee {
-      position: fixed;
-    }
-  }
-  @media (max-width: 768px) {
-    .parts {
-      width: 0%;
-      display: none;
-    }
-  }
-  @media (max-width: 768px) {
-    .pimg {
-      width: 100%;
-    }
-  }
