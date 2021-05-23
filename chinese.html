@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="image/pp.ico" type="image/x-icon">
   <link rel="shortcut icon" href="/image/pp.ico" type="image/x-icon">
 </head>
@@ -60,7 +59,7 @@
       </table>
 
     </div>
-    <div class="hint" style="font-family: myFirstFont1;">English and Chinese are available NOW.</div>
+    <div class="hint" style="font-family: myFirstFont1;">Only English is available NOW.</div>
     <div class="hint" style="font-family: myFirstFont1;">Copyright © 2020 Csillag. All rights reserved.</div>
   </div>
   <div class="con_board">
@@ -308,10 +307,14 @@
           </div>
           <div class="content1" id="emg">
             <div class="content_left">
-              <p><span style="font-family: myFirstFont;font-size: 40px;">EEG & EMG<br>機器人控制系統</span>
+              <p><span style="font-family: myFirstFont;font-size: 40px;">EEG & EMG<br>-Based mobile robot control</span>
               </p>
               <p>
-                這個系統與EEG 和EMG 相關，原先我們希望能以EEG 來控制機器人，但隨即我們發現現有的硬體設備仍不足以穩定地分析出我們需要的數據，因此我們導入EMG ，藉由分析EMG 的變化，來確定使用者的輸入。最終，我們的系統能透過在地感測器來了解使用者想出入的指令，並即時的傳送訊號給系統，操作機器人。此外我們也額外加入許多功能例如最短路徑分析、紀錄回放功能等等，來增加使用者使用的便利性與效率。
+                This project is about the EEG and EMG. We hope to use the EEG to control the movement of the robot. We
+                use Labview to design our code. However, our sensor is not able to detect the EEG signal stable. We
+                decide to add the EMG to improve our system's stability. Finally, we can execute command which we want
+                in simulation let the robot to reach the goal. And we also add several functions on it. Such as record,
+                set the shortest path and so on to increase the efficiency.
               </p>
             </div>
             <div class="content_right">
@@ -322,8 +325,7 @@
             <div class="content_left">
               <p><span style="font-family: myFirstFont;font-size: 40px;">即時自動物聯網統計系統</span></p>
               <p>
-                這個作品是一個物聯網系統，我們設計它來幫助我們即時自動的統計人數，它主要是以一個超音波感測器架設在門口，透過測距來判斷是否有人走入或走出。疫情肆虐，我們以簡單的設備、低廉的成本來建構這個系統，提供即時室內人數在網路上，利用ESP8266來連上物聯網系統，即時的更改數字，並標示出GPS位置提供參考。
-              </p>
+                這個作品是一個物聯網系統，我們設計它來幫助我們即時自動的統計人數，它主要是以一個超音波感測器架設在門口，透過測距來判斷是否有人走入或走出。疫情肆虐，我們以簡單的設備、低廉的成本來建構這個系統，提供即時室內人數在網路上，利用ESP8266來連上物聯網系統，即時的更改數字，並標示出GPS位置提供參考。              </p>
             </div>
             <div class="content_right">
               <p><img class="pimg" width=450 src="photo/iot.jpg"></p>
