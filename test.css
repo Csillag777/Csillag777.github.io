@@ -162,7 +162,7 @@ body{
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: white;
+  
 }
 
 .dropdown {
@@ -173,8 +173,11 @@ body{
 .dropdown-content {
   display: none;
   position: absolute;
+  left: -200%;
+  top: 110px;
   background-color: #f1f1f1;
   min-width: 160px;
+  width: 400px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -187,7 +190,6 @@ body{
   display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
 @media (max-width: 552px) {
