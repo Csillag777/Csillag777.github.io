@@ -10,19 +10,50 @@
 <link href="test.css" rel="stylesheet">
 <link rel="icon" href="image/pp.ico" type="image/x-icon">
   <link rel="shortcut icon" href="/image/pp.ico" type="image/x-icon">
-
+<script>
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }</script>
 <head>
   <title>Csillag's Diary</title>
-  <script type="text/javascript" src='rwd.js'> </script>
+  
 </head>
 
 <body>
+  
   <div class="container-fluid">
 
     <div class="row" style="height: 100px;" id="t1">
+      
       <span class="link">
         <h3>Csillag's Diary</h3>
       </span>
+      <div class="dropdown">
+      
+        <img src="image/menu.png" class="dropbtn" onclick="myFunction()" alt="" style="max-width: 75px;width: 100%;">
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#introo">Introduction</a>
+          <a href="#eduu">Education</a>
+          <a href="#ress">Research</a>
+          <a href="#proo">Projects</a>
+          <a href="#conn">Contact</a>
+          <a href="ch.html">Chinese</a>
+        </div>
+      </div>
     </div>
     <div class="banner">
       <img src="image/banner.png" height="100">
@@ -58,9 +89,11 @@
         </li>
       </ul>
     </nav>
-    <div class="image1" id="p1" style="visibility: hidden;">
-    <img src="image/menu.png" style="width: 1 00%;max-width: 50px;" alt="">
-    </div>
+
+
+    
+
+
     <div id="myCarousel" class="carousel slide" style="padding: 10px;" data-ride="carousel">
 
       <!-- Indicators -->
@@ -461,8 +494,16 @@
           width="40px"></a>
       <a href="https://github.com/Csillag777" target="_blank"><img src="image/git.png" width="40px"></a>
     </div>
+    <div class="row">
+      <div class="col">
+    <button id="c2">circle</button></div></div>
   </div>
-
+<!--<style>@media (max-width: 1000px) {
+  #c2{
+  display: none;
+  }
+  
+}</style>-->
 
 
 
