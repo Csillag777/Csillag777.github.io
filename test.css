@@ -19,13 +19,15 @@ h3,#t2 {
     top: 50px;
     padding-left: 25px;
     left: 10px;
-    font-size: 4rem;
     font-family: myFirstFont;
     width: fit-content;
     background: linear-gradient(to right, red, orange, rgba(231, 231, 35, 0.89), rgb(31, 153, 31));
     /*background-image: url("https://i.pinimg.com/564x/53/08/53/5308532599c65c43eca5a9329be798fe--mickey-wallpaper-polka-dot-wallpaper.jpg");*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+h3{
+    font-size: 4rem;
 }
 div.banner{
     position: absolute;
@@ -105,21 +107,7 @@ body{
         padding-right: 5px;
     }
 }
-#t2{
-    font-size: 50rem;
-}
-@media (max-width: 2622px) {
-    #t2{
-        font-size: 10rem;
-        
-    }
-}
-@media (max-width: 1622px) {
-    #t2{
-        font-size: 7rem;
-        
-    }
-}
+
 
 #res_t1{
     color: darkblue;
@@ -218,5 +206,15 @@ body{
     }
     h3{
         font-size: 50px;
+    }
+}
+#t2{
+    font-size: 10rem;
+}
+
+@media (max-width: 1622px) {
+    #t2{
+        font-size: 6rem;
+        
     }
 }
