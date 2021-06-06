@@ -238,10 +238,11 @@ body{
   border: none;
   cursor: pointer;
   margin-top: 0px;
-  margin-left: 0%;
+  margin: 0px;
   position: fixed;
-  bottom: -15px;
-  margin-left: 75px;
+  bottom: 0px;
+  margin-left: 91px;
+  padding: 0px;
   }
 #myDropdown1.dropdown-content {
     
