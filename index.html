@@ -10,24 +10,38 @@
 <link href="test.css" rel="stylesheet">
 <link rel="icon" href="image/pp.ico" type="image/x-icon">
   <link rel="shortcut icon" href="/image/pp.ico" type="image/x-icon">
-<script>
-  function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-  // Close the dropdown if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
+  <script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    function myFunction1() {
+      document.getElementById("myDropdown1").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
         }
       }
-    }
-  }</script>
+      if (!event.target.matches('.dropbtn1')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content1");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+      
+    }</script>
 <head>
   <title>Csillag's Diary</title>
   
@@ -45,13 +59,12 @@
       <div class="dropdown">
       
         <img src="image/menu.png" class="dropbtn" onclick="myFunction()" alt="" style="max-width: 75px;width: 100%;">
-        <div id="myDropdown" class="dropdown-content">
+        <div id="myDropdown" class="dropdown-content" style="top: 110px;">
           <a href="#introo">Introduction</a>
           <a href="#eduu">Education</a>
           <a href="#ress">Research</a>
           <a href="#proo">Projects</a>
           <a href="#conn">Contact</a>
-          <a href="ch.html">Chinese</a>
         </div>
       </div>
     </div>
@@ -499,14 +512,23 @@
       <div class="col-0 col-lg-2 col-xl-3"></div>
     </div>
 
-
-
+    <div class="dropdown">
+      
+      <div id="myDropdown1" class="dropdown-content" style="bottom:40px;width: 130px;" >
+        <a href="#">English</a>
+        <a href="ch.html">中文</a>
+        <a href="#">日本語</a>
+        
+      </div>
+    </div>
 
     <div class="tool">
 
       <a href="#t1"><img src="https://icon-library.com/images/back-to-top-icon-png/back-to-top-icon-png-7.jpg"
           width="40px"></a>
       <a href="https://github.com/Csillag777" target="_blank"><img src="image/git.png" width="40px"></a>
+     
+        <img src="image/language.png" class="dropbtn" id="p3" onclick="myFunction1()" alt="" style="width: 40px;">
     </div>
     
   </div>
