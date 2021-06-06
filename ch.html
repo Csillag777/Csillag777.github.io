@@ -14,6 +14,9 @@
     function myFunction() {
       document.getElementById("myDropdown").classList.toggle("show");
     }
+    function myFunction1() {
+      document.getElementById("myDropdown1").classList.toggle("show");
+    }
     
     // Close the dropdown if the user clicks outside of it
     window.onclick = function(event) {
@@ -27,10 +30,21 @@
           }
         }
       }
+      if (!event.target.matches('.dropbtn1')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content1");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+      
     }</script>
 <head>
   <title>Csillag's Diary</title>
-  <script type="text/javascript" src='rwd.js'> </script>
+  <!--<script type="text/javascript" src='rwd.js'> </script>-->
 </head>
 
 <body>
@@ -43,13 +57,14 @@
       <div class="dropdown">
       
         <img src="image/menu.png" class="dropbtn" onclick="myFunction()" alt="" style="max-width: 75px;width: 100%;">
-        <div id="myDropdown" class="dropdown-content">
+        <img src="image/language.png" class="dropbtn" id="p3" onclick="myFunction1()" alt="" style="width: 70px;">
+        <div id="myDropdown" class="dropdown-content" style="top: 110px;">
           <a href="#introo">簡介</a>
           <a href="#eduu">學經歷</a>
           <a href="#ress">研究</a>
           <a href="#proo">過去作品</a>
           <a href="#conn">聯絡資訊</a>
-          <a href="index.html">英文版</a>
+          
         </div>
       </div>
     </div>
@@ -180,8 +195,7 @@
           
         </div>
         <div class="collapse" id="card2">
-          <span class="font1" style="font-family: myFirstFont;color: orange;"><b> Kasetsart
-            泰國農業大學 (KU)</b></span>
+          <span class="font1" style="font-family: myFirstFont;color: orange;"><b>泰國農業大學 (KU)</b></span>
           <br>
           泰國農業大學（Kasetsart University）是泰王國久負盛名的國立綜合 類大學，也是泰國唯一的國立農業大學。泰國農業大學目前有 7 個分校，
                   分佈在全國各地。泰國農業大學是位於泰國曼穀的重點大學，也是泰國歷 史最悠久的學府之一。該校目前包括研究生院在內，共設有 23 各學院，其 中，占地 1,270 公頃的 Kamphaeng Saen
@@ -194,7 +208,7 @@
         <div class="collapse" id="card3">
           <span class="font1" style="font-family:myFirstFont;color: green;"><b>國立交通大學 (NCTU)</b></span>
           <br>
-                  <br>國立交通大學是校本部位於臺灣新竹市的大專院校，為中華民國高教深耕計畫遴選出參與全球鏈結全校型計畫的四所大學之一，前身為上海徐家滙南洋公學，1958年在臺復校，與新竹科學工業園區及國立清華大學相鄰。該校主要目的為培育工程（engineering）、科學（science）及管理（administration）方面的人才，此宗旨現於校徽上的ESA；學校主要發展領域為電子、資通訊及光電等，為臺灣頂尖國立大專校院之一。<br>
+                  國立交通大學是校本部位於臺灣新竹市的大專院校，為中華民國高教深耕計畫遴選出參與全球鏈結全校型計畫的四所大學之一，前身為上海徐家滙南洋公學，1958年在臺復校，與新竹科學工業園區及國立清華大學相鄰。該校主要目的為培育工程（engineering）、科學（science）及管理（administration）方面的人才，此宗旨現於校徽上的ESA；學校主要發展領域為電子、資通訊及光電等，為臺灣頂尖國立大專校院之一。<br>
                   曾一度與相鄰的國立清華大學商討合併事宜，但因校名問題而破局。2018年12月26日與國立陽明大學商討多時的合併定案，兩校啟動併校程序，校名暫定為「國立陽明交通大學」。2019年9月18日，國立陽明大學及國立交通大學兩校校務會議皆通過合併計畫書，2020年8月12日其合併計畫書獲教育部同意。<br>
                   交大與中國大陸的上海、西安、西南（成都）、北京等五所交大並稱「五校一家」，強調「飲水思源，同行致遠」的精神。飲水思源紀念碑也成為各校精神團結的象徵。<br>
                   2021年2月1日，國立交通大學與國立陽明大學合併為國立陽明交通大學。<br>
@@ -240,7 +254,7 @@
       </div>
       <div class="col-12 col-sm-6 col-lg-4  col-xl-3" id="c1">
         <p><span style="font-family: myFirstFont;font-size: 40px;" id="res_t1">禿鷹DNA條碼</span></p>
-        <p style="color: darkblue;">
+        <p style="color: darkblue;">&nbsp;&nbsp;
             DNA條碼目前正在發展目標是以DNA特定區段來辨別不同的物種，由於目前較少人投入且生物種過多，這樣的DNA的資料庫相當稀少。我們能透過這些研究來區分不同物種，甚至來區分同種不同個體，來了解這些個體彼此間的親緣遠近。
         </p>
       </div>
@@ -368,7 +382,7 @@
       <div class="col-12 col-sm-6 col-lg-4 col-xl-3" id="c1">
         <p><span style="font-family: myFirstFont;font-size: 40px;">響應式網頁設計</span></p>
         <p>
-            這是我設計的網頁，也就是你現在看到的這個。透過這個網站來練習站業前端的撰寫，在這個過程中同時學習HTML, CSS,JS code的使用，並將他們已RWD的方式撰寫。之後我也會一步步修改它，讓它越來越好。
+            這是我設計的網頁，也就是你現在看到的這個。透過這個網站來練習站業前端的撰寫，在這個過程中同時學習HTML, CSS, JavaScript code 的使用，並將他們以RWD的方式撰寫。之後我也會一步步修改它，讓它越來越好。
         </p>
       </div>
       <div class="col-12 col-sm-6 col-lg-4  col-xl-3" id="c1">
@@ -382,11 +396,24 @@
       <div class="col-12 col-sm-6 col-lg-4 col-xl-3" id="c1">
         <p><span style="font-family: myFirstFont;font-size: 40px;">即時自動物聯網統計系統</span></p>
         <p>
-            這個作品是一個物聯網系統，我們設計它來幫助我們即時自動的統計人數，它主要是以一個超音波感測器架設在門口，透過測距來判斷是否有人走入或走出。疫情肆虐，我們以簡單的設備、低廉的成本來建構這個系統，提供即時室內人數在網路上，利用ESP8266來連上物聯網系統，即時的更改數字，並標示出GPS位置提供參考。 
+            這個作品是一個物聯網系統，我們設計它來幫助我們即時自動的統計人數，它主要是以一個超音波感測器架設在門口，透過測距來判斷是否有人走入或走出。疫情肆虐，我們以簡單的設備、低廉的成本來建構這個系統，提供即時室內人數在網路上，利用ESP8266 來連上物聯網系統，即時的更改數字，並標示出GPS 位置提供參考。 
         </p>
       </div>
       <div class="d-flex flex-column justify-content-center  col-12 col-sm-6 col-lg-4  col-xl-3" id="c1">
         <img src="photo/iot.jpg" alt="">
+      </div>
+      <div class="col-0 col-lg-2 col-xl-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-0 col-lg-2 col-xl-3"></div>
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3" id="c1">
+        <p><span style="font-family: myFirstFont;font-size: 40px;">資料庫架設練習</span></p>
+        <p>
+          我們架設這個資料庫同時練習mysql 和PHP 的使用，簡單架設出一個系統可用來進行口罩的買賣。除此之外我們也學習防止sql injection，加密使用者密碼，提供資料庫搜尋等等功能。
+        </p>
+      </div>
+      <div class="d-flex flex-column justify-content-center  col-12 col-sm-6 col-lg-4  col-xl-3" id="c1">
+        <img src="image/db.PNG" alt="">
       </div>
       <div class="col-0 col-lg-2 col-xl-3"></div>
     </div>
@@ -431,13 +458,23 @@
     </div>
 
 
-
+    <div class="talktext">
+      
+      <div id="myDropdown1" class="dropdown-content" style="bottom:40px;width: 130px;" >
+        <a href="index.html">English</a>
+        <a href="#">中文</a>
+        <a href="#">日本語</a>
+        
+      </div>
+    </div>
 
     <div class="tool">
 
       <a href="#t1"><img src="https://icon-library.com/images/back-to-top-icon-png/back-to-top-icon-png-7.jpg"
           width="40px"></a>
       <a href="https://github.com/Csillag777" target="_blank"><img src="image/git.png" width="40px"></a>
+     
+        <img src="image/language.png" class="dropbtn" id="p3" onclick="myFunction1()" alt="" style="width: 70px;">
     </div>
   </div>
 
