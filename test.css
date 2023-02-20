@@ -18,9 +18,11 @@ h3,#t2 {
     background : white;
     top: 50px;
     padding-left: 25px;
+    padding-right: 10px;
     left: 10px;
     font-family: myFirstFont;
     width: fit-content;
+    background-position-y: center;
     background: linear-gradient(to right, red, orange, rgba(231, 231, 35, 0.89), rgb(31, 153, 31));
     /*background-image: url("https://i.pinimg.com/564x/53/08/53/5308532599c65c43eca5a9329be798fe--mickey-wallpaper-polka-dot-wallpaper.jpg");*/
     -webkit-background-clip: text;
@@ -190,7 +192,6 @@ body{
         display: none;
     }
     #sign1{
-        width: 200dp;
         text-align: center;
     }
 }
@@ -221,6 +222,7 @@ body{
         font-size: 8rem;
         
     }
+    
     
 }
 #p3.dropbtn {

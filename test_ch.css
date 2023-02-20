@@ -22,6 +22,7 @@ h3,#t2 {
     background : white;
     top: 50px;
     padding-left: 25px;
+    padding-right: 10px;
     left: 10px;
     font-size: 4rem;
     font-family: myFirstFont1;
@@ -49,7 +50,6 @@ div.banner{
 }
 .topnav-right {
     float: right;
-    display: ;
   }
 a{
     color: white;
@@ -214,6 +214,12 @@ body{
 @media (max-width: 552px) {
     #n1{
         display: none;
+    }
+    #sign1{
+        text-align: center;
+    }
+    #t2{
+        font-size: 8rem;
     }
 }
 @media (max-width: 450px) {
